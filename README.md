@@ -30,3 +30,18 @@ Install the [LazyVim Starter](https://github.com/LazyVim/starter)
     NVIM_APPNAME="lazyvim" nvim
     ```
     
+----------------------------------------------------------------------
+
+- Manual packaging of LazyVim configuration and plugins
+
+    ```bash
+    tar czvf config_lazyvim.tgz -C ~/.local/config lazyvim
+    tar czvf share_lazyvim.tgz -C ~/.local/share lazyvim
+    ```
+
+- Manual unpackaging of LazyVim configuration and plugins
+
+    ```bash
+    tar zxvf config_lazyvim.tgz -C ~/.local/config
+    tar zxvf share_lazyvim.tgz -C ~/.local/share
+    ```
